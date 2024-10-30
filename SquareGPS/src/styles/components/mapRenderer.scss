@@ -1,0 +1,43 @@
+.map-container {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.map-wrapper
+{
+  position: relative;
+  height: 500px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.map-search-input
+{
+  position: absolute;
+  width: 400px;
+  top: 20px;
+  z-index: 2;
+  right: 20px;
+  background: white;
+}
+.toggle-add-marker
+{
+  position: absolute;
+  width: 50px;
+  bottom: 20px;
+  z-index: 2;
+  right: 20px;
+}
+@media (max-width: 998px) {
+  .map-page .marker-list {
+    width: 100%;
+    max-height: 250px;
+  }
+  .map-page .map-wrapper {
+    width: 100%;
+  }
+  .content{
+
+    flex-direction: column; 
+  }
+}

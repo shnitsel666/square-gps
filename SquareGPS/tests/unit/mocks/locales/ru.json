@@ -1,0 +1,9 @@
+{
+  "markerList": "Список маркеров",
+  "emptyList": "Ничего не выбрано.",
+  "successMessage": "Успешно",
+  "errorMessage": "Произошла ошибка",
+  "markerDeleted": "Маркер успешно удалён",
+  "markerNotFound": "Маркер не найден",
+  "markerSelected": "Маркер выбран"
+}

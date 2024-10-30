@@ -1,0 +1,9 @@
+{
+"markerList": "Marker List",
+"emptyList": "Nothing is selected.",
+"successMessage": "Success",
+"errorMessage": "An error occurred",
+"markerDeleted": "Marker deleted successfully",
+"markerNotFound": "Marker not found",
+"markerSelected": "Marker selected"
+}

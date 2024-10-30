@@ -1,0 +1,54 @@
+.header-wrapper
+{
+height: 140px;
+line-height: 140px;
+width: 100%;
+background-image: url('/src/assets/img/banner_trees.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+padding: 20px;
+box-sizing: border-box;
+position: relative;
+}
+.header
+{
+line-height: 1;
+vertical-align: middle;
+position: relative;
+z-index: 2;
+}
+.header-mask
+{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(22, 22, 66, 0.29);
+}
+.header-title
+{
+color: white;
+height: 60px;
+font-size: 24px;
+}
+.app-bar-main .v-toolbar__content
+{
+height: auto !important;
+}
+
+.app-main .v-main
+{
+padding-top: 140px;
+}
+.header-lang-nav-wr
+{
+position: absolute;
+right: 0;
+top: 0;
+}
+.header-language-button
+{
+
+}

@@ -1,0 +1,32 @@
+.map-page {
+padding: 20px;
+}
+.content {
+display: flex;
+gap: 20px;
+}
+.marker-list::-webkit-scrollbar {
+width: 3px;
+}
+
+.marker-list::-webkit-scrollbar-track {
+background-color: #313131;
+}
+
+.marker-list::-webkit-scrollbar-thumb {
+background-color: #b4b4b4d1;
+}
+@media (max-width: 768px) {
+    .map-wrapper .map-search-input
+    {
+        width: 200px;
+    }
+    .marker-content .address-street
+    {
+        font-size: 14px;
+    }
+    .marker-content .address-coords
+    {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,127 @@
+.body
+{
+font-size: 10px;
+}
+.content
+{
+width: 96%;
+margin: auto;
+padding: 0 40px;
+padding-top: 30px;
+box-sizing: border-box;
+}
+.h1
+{
+font-size: 36px;
+color: black;
+margin-bottom: 15px;
+}
+.h2
+{
+font-size: 30px;
+color: black;
+margin-bottom: 15px;
+}
+.text-wrap
+{
+margin-bottom: 40px;
+}
+.text
+{
+font-size: 26px;
+line-height: 1.6;
+}
+.text-ul
+{
+list-style-type: decimal;
+padding-left: 60px;
+margin-top: 20px;
+}
+.text-li
+{
+margin-bottom: 15px;
+}
+.text-li::marker
+{
+font-size: 26px;
+}
+.text-ul-sub
+{
+list-style-type: lower-alpha;
+padding-left: 60px;
+margin-top: 20px;
+}
+.text-li-sub::marker
+{
+font-size: 26px;
+}
+.text-li-sub
+{
+margin-bottom: 15px;
+}
+
+
+@media (max-width: 768px) {
+.h1
+{
+    font-size: 24px;
+}
+.h2
+{
+    font-size: 18px;
+}
+.text
+{
+    font-size: 14px; 
+}
+.text-li::marker {
+    font-size: 14px;
+}
+.text-ul
+{
+    padding-left: 20px;
+}
+.text-wrap
+{
+    margin-bottom: 15px;
+}
+.text-ul-sub
+{
+    padding-left: 20px;
+}
+.text-li-sub::marker {
+    font-size: 14px;
+}
+.header-title {
+display: none;
+}
+.header-wrapper
+{
+height: 60px;
+line-height: 60px;
+padding: 10px;
+}
+.app-main .v-main
+{
+    padding-top: 60px;
+}
+.v-main .map-page
+{
+    padding-top: 0;
+}
+.h2
+{
+font-size: 20px;
+margin-bottom: 5px;
+}
+.content
+{
+    padding: 0 10px;
+    padding-top: 30px;
+    width: 100%;
+}
+.v-main .map-page
+{
+    padding: 10px;   
+}
+}
