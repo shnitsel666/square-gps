@@ -48,3 +48,6 @@ npm run dev
 docker build -t square-gps .
 docker run -d -p 5317:80 --name app square-gps
 ```
+
+Я бы обернул обращения в store в какой нибудь паттерн mediatr, сделал бы шину для запросов и разделил бы её на commands/queries для CQRS, но это долго и не для такого маленького тестового задания.
+Пусть это остаётся техническим долгом.
